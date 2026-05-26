@@ -1,0 +1,118 @@
+# ===== 절대 올리면 안 되는 것 =====
+# API 키
+.env
+.env.local
+.env.*.local
+*.key
+secrets/
+
+# Claude Code 세션 정보
+.claude/session.json
+.claude/credentials.json
+
+# ===== 생성 결과물 (런타임 산출물) =====
+projects/
+output/
+*.mp4
+*.mov
+*.wav
+*.mp3
+!samples/sample_*.mp4
+!examples/**/*.mp4
+
+# 캐시
+.cache/
+cache/
+*_cache/
+
+# ===== 사용자별 샘플 (개인정보 가능성) =====
+samples/draft_content.json
+samples/user_*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상환경
+venv/
+env/
+ENV/
+.venv/
+.env.d/
+
+# ===== Node.js (Claude Code 관련) =====
+node_modules/
+package-lock.json
+yarn.lock
+
+# ===== 에디터 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Jupyter / 노트북 =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== 로그 =====
+*.log
+logs/
+log/
+
+# ===== OS 임시 파일 =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk

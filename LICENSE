@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2026 날쌤 (박준호) / 몽당분필 (디미교연)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Additional Notes on AI-Generated Content
+
+This software orchestrates third-party AI services to generate visual and
+audio content. Users are solely responsible for:
+
+1. **Fact-checking** all AI-generated content before classroom or public use
+2. **Copyright and likeness rights** - especially when generating images of
+   real people or recognizable characters
+3. **Age-appropriate content** when producing materials for minors
+4. **Compliance with each upstream service's Terms of Service**
+   (Anthropic, Higgsfield, ElevenLabs, etc.)
+
+The authors and contributors of this project shall not be held responsible
+for any misuse, harmful, inaccurate, or inappropriate content generated
+through the use of this pipeline.
